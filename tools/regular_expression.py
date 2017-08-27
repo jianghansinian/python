@@ -4,6 +4,7 @@ import string
 
 def myregular_expression():
     test = "jason 1 . 010-78639493. ? 456"
+    test = "jason 1 . 010-78639493. ? 456"
     pattern1 = re.compile('(^jason)[\.\s\w\d\-]*([$6])')
     pattern2 = re.compile('[\d\-\d\w\.\s]+[$?]')
     pattern3 = re.compile('[\w\s\-\.\d]*[$?]')
